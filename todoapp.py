@@ -6,6 +6,7 @@ import time
 #               todos = functions.get_todos()
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
+
 while True:
     action = input('Type add, show, edit, complete or exit if you want to quit.'
                    'if you choose "add" type a to do after '
@@ -15,9 +16,7 @@ while True:
     if action.startswith('add'):
         todo = action[4:]
         todos = get_todos()
-
         todos.append(todo.capitalize() +'\n')
-
         write_todos(todos)
 
     elif action.startswith('show'):
