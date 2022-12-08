@@ -3,3 +3,6 @@ run
 Smile
 Protect roses
 Mix ideas
+Go Poczta
+Master Python
+Master SQL
